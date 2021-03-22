@@ -1,0 +1,27 @@
+annonymous function
+
+oddnum= function(num){
+    flag = 1
+    for(var i =2;i<num;i++){
+        if(num%i==0){
+            flag=0;
+            break;
+        }
+        
+        
+    }
+    if (flag==1){
+        
+    console.log("prime");
+    }
+    else
+    console.log(" not a prime");
+}
+
+let arr=16
+    oddnum(arr)
+
+_______________________________________________________
+
+IIFE
+
